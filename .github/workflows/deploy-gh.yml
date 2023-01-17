@@ -22,7 +22,7 @@ jobs:
       - name: Install packages
         run: npm ci
       - name: Make build
-        run: npm run export
+        run: npm run build && npm run export
       - name: Add .nojekyll file
         run: touch out/.nojekyll
       - name: Add github pages config
