@@ -1,0 +1,1 @@
+jupyter notebook to obsidian note coverter for personal use
